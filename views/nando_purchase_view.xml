@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <record id="nando_purchase_tree_view_id" model="ir.ui.view">
+        <field name="name">nando_purchase_tree_view_id</field>
+        <field name="model">nando.purchase</field>
+        <field name="arch" type="'xml">
+            <tree>
+                <field name="name"/>
+                <field tanggal="tanggal"/>
+                <field status="status"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

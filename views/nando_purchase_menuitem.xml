@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <menuitem
+    id="parent_nando_purchase_id"
+    name="pembelian"
+    sequence="10"/>
+
+    <menuitem
+    id="child_nando_purchase_id"
+    name="pembelian"
+    parent="nando_purchase.parent_nando_purchase_id"
+    action="nando_purchase.purchase_action_id"/>
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <record id="purchase_action_id" model="ir.action.act_window">
+            <field name="name"> pembelian</field>
+            <field name="res_model">nando.purchase</field>
+    </record>
+
+    <record id="pembelian_action_tree_view_id" model="ir.action.act_window.view">
+        <field name="sequence" eval="1"/>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="nando_purchase.nando_purchase_tree_view_id"/>
+        <field name="act_window_id" ref="nando_purchase.purchase_action_id"/>
+    </record>
+</odoo>
